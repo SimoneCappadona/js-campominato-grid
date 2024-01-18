@@ -1,0 +1,59 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+main {
+  background-color: #7fffd4;
+}
+img {
+  max-width: 100%;
+}
+
+.container {
+  background-color: transparent;
+  height: calc(100vh - 8rem);
+}
+
+#gridboard {
+  margin: auto;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+#gridboard div {
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  border: solid black 1px;
+  background-color: #7fffd4;
+}
+
+#gridboard .square {
+  background-color: #61d2a4;
+}
+
+header {
+  min-height: 4.5rem;
+}
+
+footer {
+  min-height: 2.5rem;
+}
+.gridboard-100 {
+  max-width: 80%;
+}
+
+.gridboard-81 {
+  max-width: 50%;
+}
+
+.gridboard-49 {
+  max-width: 30%;
+}
