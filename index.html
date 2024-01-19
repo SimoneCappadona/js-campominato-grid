@@ -22,11 +22,11 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script> -->
 
-    <!-- My-Css -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- My-js -->
-    <script src="js/main.js" defer></script>
-    <script src="js/function.js" defer></script>
+        <!-- My-Css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- My-js -->
+        <script src="js/function.js" defer></script>
+        <script src="js/main.js" defer></script>
 </head>
 
 <body>
@@ -38,25 +38,22 @@
         <div>
             <label class="fs-4 align-middle" for="difficult">Difficult: </label>
             <select class="btn btn-primary m-3" id="difficult">
-                <option value="Easy" selected>Easy</option>
-                <option value="Medium">Medium</option>
-                <option value="Hard">Hard</option>
+                <option value="Easy" selected id="difselect">Easy</option>
+                <option value="Medium" id="difselect">Medium</option>
+                <option value="Hard" id="difselect">Hard</option>
             </select>
             <button id="play" class="btn btn-primary m-3">Play</button>
         </div>
     </header>
     <main>
         <div class="container d-flex align-items-center">
-            <div id="girdboard" class="d-flex flex-wrap">
+            <div id="grid" class="d-flex flex-wrap grid-1">
             </div>
         </div>
     </main>
     <footer>
         <p class="m-2 ">Made with &#128151; by <a href="#">Boolean</a></p>
     </footer>
-
-
-
 </body>
 
 </html>

@@ -18,7 +18,7 @@ img {
   height: calc(100vh - 8rem);
 }
 
-#gridboard {
+#grid {
   margin: auto;
 }
 .logo {
@@ -26,16 +26,16 @@ img {
   height: 50px;
 }
 
-#gridboard div {
-  height: 3rem;
-  width: 3rem;
+#grid div {
+  height: calc(100% / 10);
+  width: calc(100% / 10);
   text-align: center;
-  line-height: 3rem;
+  line-height: 5rem;
   border: solid black 1px;
   background-color: #7fffd4;
 }
 
-#gridboard .square {
+#grid .square {
   background-color: #61d2a4;
 }
 
@@ -46,14 +46,17 @@ header {
 footer {
   min-height: 2.5rem;
 }
-.gridboard-100 {
-  max-width: 80%;
+.grid-1 {
+  width: 800px;
+  height: 800px;
+  border: solid black 1px;
 }
 
-.gridboard-81 {
-  max-width: 50%;
+.medium-grid {
+  height: calc(100% / 8);
+  width: calc(100% / 8);
 }
-
-.gridboard-49 {
-  max-width: 30%;
+.hard-grid {
+  height: calc(100% / 7);
+  width: calc(100% / 7);
 }
